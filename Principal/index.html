@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <!--<meta http-equiv="refresh" content="30">-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Aldair Perez, Loana Vergara, Ruben Sepulveda">
+  <link rel="shortcut icon" href="../Imagenes/2.png" type="image/x-icon">
+  <link rel="stylesheet" href="Recursos.css">
+
+  <title>Región Caribe</title>
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap CSS
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+ -->
+
+  <!-- sweetalert2 CSS -->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+  <!--Titulo-->
+  <br><br><br>
+  <center><img src="../Imagenes/3.png" class="img-fluid" alt="titulo" width="500px" height="140px"></center>
+
+
+</head>
+
+<body class="body">
+  <!--Menu-->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-scroll">
+    <div class="container">
+      <a href="../Principal/index.html">
+      <img src="../Imagenes/3.png" height="70" alt="" loading="lazy" /></a>
+      <button class="navbar-toggler ps-0" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+        aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon d-flex justify-content-start align-items-center">
+          <i class="fas fa-bars"></i>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarExample01">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="../General/General.html"> <b>Información General</b> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../Cultura/Cultura.html"> <b> Cultura</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../Eventos/Eventos.html"> <b> Eventos </b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../Informacion practica/InfoPract.html"> <b> Información Practica </b></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Carrusel-->
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../Imagenes/Imagen1.jpg" class="d-block w-100 img-fluid" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5></h5>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../Imagenes/Imagen6.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5></h5>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../Imagenes/Imagen9.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5></h5>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../Imagenes/caribe.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5></h5>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+  <br><br>
+
+
+  <!--Card1-->
+  <div class="container">
+  <div class="card" style="border-radius: 2em;">
+    <div class="row g-0">
+      <div class="col-md-4" style="text-align: center;">
+        <img src="../Imagenes/Imagen3.jpg" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h4 class="card-title" style="color: rgb(255, 144, 40);">Región Caribe</h4>
+          <p class="card-text" style="text-align:justify;">
+            Esta ubicada en el extremo Norte de Colombia y de América del Sur, esta conformada por los departamentos de
+            Atlántico, Bolívar, Cesar, Córdoba, La Guajira, Magdalena, Sucre y el departamento formado por el
+            archipiélago de las Islas de San Andrés, Providencia y Santa Catalina.
+            <br><br>
+            Colombia es un país privilegiado, pues es el único país de América del Sur con costas en el Mar Caribe y en
+            el Océano Pacífico, la región colombiana que se encuentra limitando con el Mar Caribe, incluyendo sus islas
+            recibe el nombre de Región Caribe, exceptuando el departamento de Antioquia que forma parte de la Región
+            Andina y el departamento del Choco que también tiene costa sobre el Mar Caribe pero forma parte de la Región
+            Pacífico. El departamento del César, aún cuando no tiene limites con el mar Caribe, por la identidad e
+            idiosincrasia de sus gentes, así como por su cercanía a esta región ha sido integrado a la Región Caribe.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <!--Card2-->
+  <div class="card" style="border-radius: 2em;">
+    <div class="row g-0">
+      <div class="col-md-8 .">
+        <div class="card-body">
+          <p class="card-text" style="text-align:justify;">
+            La mayor parte de su territorio es plano, pero también dentro de la región Caribe se encuentra la Sierra
+            Nevada de Santa Marta, en la cual están los picos más altos del país: el Bolívar y el Cristóbal Colón.
+            <br><br>
+            En la mayor parte de la Región Caribe predomina el clima cálido, con zonas secas y desérticas con
+            espectaculares paisajes como La Guajira y zonas Húmedas como el Golfo de Urabá, cerca al limite con Panamá.
+            Dentro de la Región Caribe se encuentran algunas tribus indígenas como los Arahuacos y los Koguis en la
+            Sierra Nevada y los Wayúus en La Guajira, también hay regiones con gran predominio de la raza negra africana
+            como San Basilio de Palenque y Cartagena.
+            <br><br>
+            La gente de esta región se caracteriza por ser espontánea, alegre, amante de la música y del baile. En la
+            música que caracteriza la región Caribe se siente de alguna forma la influencia de los ritmos africanos. Los
+            ritmos musicales más conocidos son La Cumbia, que identifica a Colombia a nivel mundial, el Mapalé, el
+            Porro, el Vallenato y el Merecumbé.
+
+          </p>
+
+        </div>
+      </div>
+      <div class="col-md-4 card-spacer-y:spacer;" style="text-align: center;">
+        <img src="../Imagenes/4.png" alt="..." class=" img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+<br><br>
+<!--Pie de pagina-->
+
+<br>
+<!-- Footer -->
+<footer style="background-color:rgb(70, 70, 70) ; text-align: center;">
+  <br><br>
+  <div class="container">
+    <div class=" d-flex-fill justify-content-xl-center">
+      <form>
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="row mb-4">
+          <div class="col">
+            <div class="form">
+              <input type="text" id="form3Example1" class="bg-light form-control" placeholder="Nombres" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="form">
+              <input type="text" id="form3Example2" class="bg-light form-control" placeholder="Apellidos" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Email input -->
+        <div class="form mb-4">
+          <input type="email" id="form3Example3" class="bg-light form-control" placeholder="Correo electronico" />
+        </div>
+
+
+        <!-- Checkbox -->
+        <div class="form-check d-flex justify-content-center mb-4">
+          <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" checked />
+          <label class="form-check-label" for="form2Example3" style="color: white;">
+            Subscribir a nuestras noticias
+          </label>
+        </div>
+
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary btn-block mb-4" >Enviar</button>
+
+        <!-- Register buttons -->
+        <div class="container">
+
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i
+                class="fab fa-facebook-f"></i></a>
+
+            <!-- Twitter -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i
+                class="fab fa-twitter"></i></a>
+
+            <!-- Google -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="#!" role="button"><i
+                class="fab fa-google"></i></a>
+
+            <!-- Instagram -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i
+                class="fab fa-instagram"></i></a>
+          </section>
+
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- Grid container -->
+
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div style="text-align: center;">
+    <img src="../Imagenes/Logo_ucc2.jpeg" alt="" style="opacity: 0.8; width: 280px; height: 100px; border-radius: 1em;" class="img-fluid">
+  </div>
+  <div class="text-center p-3" style="background-color: rgba(255, 255, 255, 0.2);color: white;">
+    © 2021 Copyright:
+    <a class="text-light" href="https://www.ucc.edu.co/Paginas/inicio.aspx">Universidad Cooperativa de Colombia</a>
+  </div>
+</footer>
+<!-- Footer -->
+
+<!-- Copyright -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+  integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
+
+<script src="java.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+  integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+  async></script>
+
+</html>

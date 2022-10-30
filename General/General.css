@@ -1,0 +1,100 @@
+/*Navar config*/
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars,
+.navbar-scroll .navar-brand {
+  color: #4f4f4f;
+}
+
+.navbar-scroll .nav-link:hover {
+  color: #ff7700;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .fa-bars,
+.navbar-scrolled .navar-brand {
+  color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #fff;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.navbar{
+    background-color: rgba(255, 207, 50, 0.945);
+}
+/*Navar config*/
+
+
+body {
+  background-image: url(../Imagenes/sky.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+
+.carousel-item img{
+    width: 776px;;
+    height: 443px;;
+}
+
+/*Card*/
+.col-md-4{
+    padding: 2em;
+}
+.card-text{
+    padding: 1em;
+}
+.card{
+    opacity: 0.9;;
+   
+}
+
+.card-body{
+  margin-top: 2em;
+}
+
+#v {
+  size:100%; 
+  padding-top: 7em; 
+  padding-left: 50px;
+  padding-bottom: 2em;
+} 
+
+
+/*card caurosel*/
+
+
+.aligner {
+background-color: rgba(255, 255, 255, 0.877);
+border-radius: 1em;
+padding-bottom: 3em;
+}
+
+/*Lightbox modal*/
+div[class=item] a{
+
+  width: 450px;
+  height: 250px;
+}
+
+div[class=item] img{
+  width: 350px;
+  height: 250px;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-radius: 3em;
+}
+
+

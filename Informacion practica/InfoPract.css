@@ -1,0 +1,125 @@
+/*Navar config*/
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars,
+.navbar-scroll .navar-brand {
+  color: #4f4f4f;
+}
+
+.navbar-scroll .nav-link:hover {
+  color: #ff7700;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .fa-bars,
+.navbar-scrolled .navar-brand {
+  color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #fff;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.navbar{
+    background-color: rgba(255, 207, 50, 0.945);
+}
+/*Navar config*/
+
+
+body {
+  background-image: url(../Imagenes/sky.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+
+.carousel-item img{
+    width: 776px;;
+    height: 443px;;
+}
+
+/*Card*/
+.col-md-4{
+    padding: 2em;
+}
+.card-text{
+    padding: 1em;
+}
+.card{
+    opacity: 0.9;
+}
+
+#v {
+  size:100%; 
+  padding-top: 5em; 
+  padding-left: 3em;
+  padding-bottom: 3em;
+} 
+.x{
+  border: rgba(255, 207, 50, 0.945) 1em solid;
+  border-radius: 2em;
+  
+}
+
+
+/*-----------------Scrollpy---------------*/
+
+#side{
+  border-radius: 2em; 
+  padding-top: 1em;
+  padding-bottom: 1em;
+  opacity: 0.9;
+}
+#side2{
+background-color: white;
+border-radius: 50px;
+opacity: .9;
+}
+
+.anchor{
+  padding-top: 6em;
+  margin-top: -6em;
+}
+
+.conter{
+  background-color: blanchedalmond;
+  opacity: .9;
+}
+
+.bd-example{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.col-md-7,.col-md-8{
+  display: flex;
+  flex-direction:row ;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+ margin: auto;
+}
+
+.conter{
+  background-color: rgb(255, 255, 255);
+  border-radius: 1em;
+}
+
+.s{
+  width: 190px;
+  height: 400px;
+  overflow: auto;
+  border-radius: 2em;
+}
